@@ -107,11 +107,11 @@ Docker (optional)
 
 MongoDB instance (optional)
 
-Clean CSV dataset
+CSV containing Twitter (X) data
 
 
 📄 License
-This project is under the MIT License. See the LICENSE file for details.
+This project is under the GPL-3.0 License.
 
 👥 Authors
 DavidRol6 – github.com/davidrol6
