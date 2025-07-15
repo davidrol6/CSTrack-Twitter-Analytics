@@ -81,13 +81,29 @@ MongoDB collections should include geospatial and user metadata (optional).
 
 Available dashboards:
 
-Tweet volume over time
+Filter by keywords
 
-User engagement metrics
+Hashtag usage
+
+Retweeted hashtags
+
+Evolution in time of hashtag usage
+
+Evolution in time of retweeted hashtags
+
+Most used words
+
+TF-IDF terms
+
+Retweets graph
+
+Community detection
 
 Geolocation maps (if available)
 
-Filtering options by user, date, hashtags, etc.
+Activity maps (if available)
+
+Topic modeling
 
 🧪 Example MongoDB Document
 ```
