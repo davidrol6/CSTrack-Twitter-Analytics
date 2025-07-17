@@ -62,7 +62,7 @@ python app.py
 ```
 Access the dashboard at: http://localhost:8050
 
-📂 Repository Structure
+## 📂 Repository Structure
 ```
 CSTrack-Twitter-Analytics/
 ├── Dockerfile # Docker container setup
@@ -74,38 +74,39 @@ CSTrack-Twitter-Analytics/
 │ └── time_series.py
 └── docs/ # Optional documentation assets
 ```
-📈 How It Works
+## 📈 How It Works
+
 Load your dataset from a CSV file or a live MongoDB connection.
 
 MongoDB collections should include geospatial and user metadata (optional).
 
 Available dashboards:
 
-Filter by keywords
+- Filter by keywords
 
-Hashtag usage
+- Hashtag usage
 
-Retweeted hashtags
+- Retweeted hashtags
 
-Evolution in time of hashtag usage
+- Evolution in time of hashtag usage
 
-Evolution in time of retweeted hashtags
+- Evolution in time of retweeted hashtags
 
-Most used words
+- Most used words
 
-TF-IDF terms
+- TF-IDF terms
 
-Retweets graph
+- Retweets graph
 
-Community detection
+- Community detection
 
-Geolocation maps (if available)
+- Geolocation maps (if available)
 
-Activity maps (if available)
+- Activity maps (if available)
 
-Topic modeling
+- Topic modeling
 
-🧪 Example MongoDB Document
+ 🧪 Example MongoDB Document
 ```
 json
 {
@@ -116,21 +117,22 @@ json
   "followers": 150
 }
 ```
-📋 Requirements
-Python ≥ 3.8
+## 📋 Requirements
 
-Docker (optional)
+- Python ≥ 3.8
 
-MongoDB instance (optional)
+- Docker (optional)
 
-CSV containing Twitter (X) data
+- MongoDB instance (optional)
+
+- CSV containing Twitter (X) data
+
+## 👥 Authors
+- DavidRol6 – github.com/davidrol6
+
+- FernanSLN – github.com/FernanSLN
 
 
-📄 License
+# 📄 License
 This project is under the GPL-3.0 License.
-
-👥 Authors
-DavidRol6 – github.com/davidrol6
-
-FernanSLN – github.com/FernanSLN
 
